@@ -1,0 +1,91 @@
+.container{
+    padding: 0 1rem;
+}
+/*SECTION HEADER*/
+.box_header{
+    height: 5rem;
+}
+.box_logo{
+    height: 5rem;
+}
+.box_logo img{
+    width: 11rem;
+}
+.button_login{
+    max-width: 12.3rem;
+    width: 100%;
+    height: 4rem;
+}
+.button_phone{
+    display: block !important;
+    margin: 0 !important;
+}
+.button_login{
+display: none;
+}
+.box_logo input{
+    display: none;
+}
+span{
+    display: block !important;
+    margin-left: 2%;
+    font-size: large;
+    
+}
+
+/*SECTION FORMULARIO LOGIN*/
+.box_form_login{
+    width: 27.5;
+    height: 18.9rem;
+    margin:15.9rem auto 3rem;
+    padding: 0 2.5rem;
+    font: 18.9px;
+}
+.box_form_login input{
+    height: 4.1rem;
+}
+.box_form_login button{
+    width: 10.9rem;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+/*SECTION IMFORMATION AND SUPORT*/
+
+.box_information{
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.box_information  picture img{
+    width: 11rem;
+}
+nav{
+width: 100%;
+flex-direction: column;
+text-align: center;
+    
+}
+.form_suport{
+    width: 100%;
+}
+nav ul li a{ 
+line-height: 1.8;
+}
+.form_suport h4{
+    margin: 0  0 1rem  ;
+    font-size: 16px;
+}
+
+.form_suport input {
+ width: 100%;
+ height: 5rem;
+}
+.form_suport input:nth-child(2){
+height: 7rem;
+   }
+.form_suport button {
+width:16.5rem;
+height: 5.1rem;
+   }
+
+/*FOOOTER*/

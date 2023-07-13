@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Playfair+Display:ital@1&family=Quicksand:wght@500&family=Raleway&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Rubik:ital,wght@0,800;1,500&display=swap');
+:root{
+    --white:#fff;
+    --blue:rgb(59, 130, 246);
+    --black:#000;
+  }
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background: none;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+}
+body{
+    background: #F5F5F5;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.container{
+    max-width: 1650px !important;
+    height:auto;
+    margin:0 auto;
+}
+header{
+    background: #fff;
+}
+
+/*SECTION HEADER*/
+.box_header{
+    align-items: center;
+    justify-content: space-between;
+}
+.box_logo{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.box_logo img{
+    height: 100%;
+}
+.box_logo input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-left: 1rem;
+    background:#F5F5F5;
+}
+.button_login{
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    margin-left: 1rem;
+}
+.button_phone{
+    display: none;
+}
+span{
+    display: none;
+}
+
+/*SECTION FORMULARIO LOGIN*/
+.box_form_login{
+max-width: 42.3rem;
+width: 100%;
+margin:10rem auto;
+text-align: center;
+flex-direction: column;
+justify-content: space-between;
+font-weight: 700;
+}
+.box_form_login input{
+    background: var(--white);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+}
+.box_form_login button{
+    width: 100%;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 14px;
+}
+
+/*SECTION IMFORMATION AND SUPORT*/
+
+.container_information{
+    background:#EAF2FD;
+}
+.form_suport input {
+   background: var(--white);
+   border-radius: 7px;
+   padding: 1rem;
+   box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+   -webkit-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+}
+.form_suport form{
+    flex-direction: column;
+    gap: 1rem;
+}
+
+nav ul li a{ 
+    font-weight: 500;
+    color: var(--black); 
+}
+nav ul li a:hover{
+    border-bottom: 2px solid var(--black);
+}
+.form_suport button {
+    background: var(--blue);
+    color: var(--white);
+}
+
+/*FOOOTER*/

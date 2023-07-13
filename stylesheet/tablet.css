@@ -1,0 +1,73 @@
+.container{
+    max-width: 1950px;
+    padding: 0 2rem;
+}
+
+/*SECTION HEADER*/
+.box_header{
+    height: 7.2rem;
+}
+.box_logo{
+    width: 100%;
+    max-width:40.4rem ;
+    height: 4.2rem;
+}
+.box_logo img{
+    width: 12rem;
+    max-width: 12rem;
+}
+.box_logo input{
+    max-width: 26rem;
+}
+.button_login{
+    max-width: 16.6rem;
+    width: 100%;
+    height: 4rem;
+}
+
+/*SECTION FORMULARIO LOGIN*/
+.box_form_login{
+    width: 27.5;
+    height: 18.9rem;
+    margin:11.7 auto;
+    padding: 0 1.5rem;
+    font-size: 19px;
+}
+.box_form_login input{
+    height: 4.1rem;
+}
+.box_form_login button{
+    width: 10.9rem;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+/*SECTION IMFORMATION AND SUPORT*/
+.box_information{
+padding-top:2.5rem;
+}
+.box_information  picture img{
+    width: 12rem;
+}
+.form_suport{
+    width: 60%;
+}
+nav{
+    flex-direction: column;
+    width: 40%;
+}
+nav ul li a{ 
+    line-height: 2;
+}
+.form_suport input {
+    width: 100%;
+    height:4rem ;
+    margin-top:1rem ;
+   }
+   .form_suport input:nth-child(2){
+       height: 6rem;
+   }
+   .form_suport button {
+       width:16.5rem;
+       height: 5.1rem;
+   }
